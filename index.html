@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilemas Éticos no Desenvolvimento de Software</title>
+</head>
+<body>
+    <script>
+        function runme() {
+            let arr = ["https://docs.google.com/forms/d/e/1FAIpQLSfjzFtIV1PBHPdcem4eyVKIyeBEPk3kjVW6osON7p0AhA78rg/viewform", 	"https://docs.google.com/forms/d/e/1FAIpQLSclHZ60N5ff5K9mSRlkGeOkcKBZetNxUyPt3wAklkyPvsfGvg/viewform"];
+            let value = arr[Math.floor(Math.random() * arr.length)];
+            window.location = value;
+        }
+
+        window.onload = runme();
+    </script>
+</body>
+</html>
